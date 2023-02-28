@@ -1,0 +1,28 @@
+.about-content {
+  display: flex;
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.about-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 3rem;
+  padding-left: 10rem;
+}
+
+.about-content p {
+  font-family: var(--font-family);
+  color: #81afdd;
+  font-size: 20px;
+  margin-top: 1.5rem;
+  padding-left: 5rem;
+}
