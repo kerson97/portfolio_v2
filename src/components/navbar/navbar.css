@@ -15,17 +15,6 @@
   align-items: center;
 }
 
-.website_navbar-links_logo {
-  position: absolute;
-  top: 0px;
-  left: 10px;
-}
-
-.website_navbar-links_logo img {
-  width: 75px;
-  height: 75px;
-}
-
 .website_navbar-links_container {
   margin: auto;
 
@@ -36,10 +25,10 @@
 .website_navbar-links_container p,
 .website_navbar-menu_container p {
   color: #fff;
-  font-family: fantasy;
+  font-family: var(--font-family);
   letter-spacing: 10px;
   font-variant: small-caps;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 30px;
   line-height: 20px;
 
