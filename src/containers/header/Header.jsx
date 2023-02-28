@@ -12,6 +12,8 @@ const Header = () => {
           connection.
         </p>
       </div>
+
+      <div />
       <div className='website_header-img'>
         <img src={duck} alt='duck' />
       </div>

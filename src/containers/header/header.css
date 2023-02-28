@@ -16,6 +16,7 @@
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 5rem;
+  padding-left: 10rem;
 }
 
 .website_header-content p {
@@ -23,6 +24,7 @@
   color: #81afdd;
   font-size: 20px;
   margin-top: 1.5rem;
+  padding-left: 5rem;
 }
 
 .website_header-img {
@@ -44,9 +46,5 @@
   .website_header-content h1,
   p {
     margin: auto;
-  }
-  .website_header-img img {
-    max-width: 70%;
-    height: auto;
   }
 }

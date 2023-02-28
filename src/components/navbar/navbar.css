@@ -53,15 +53,15 @@
   flex-direction: column;
 
   text-align: end;
-  background: var(--color-footer);
+  background: #052955;
   padding: 0.5rem;
   position: absolute;
   right: 0;
   top: 40px;
   margin-top: 1rem;
   min-width: 210px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border-style: dashed;
 }
 
 .website_navbar-menu_container p {
