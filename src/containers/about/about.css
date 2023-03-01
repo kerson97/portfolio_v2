@@ -1,8 +1,4 @@
 .about-content {
-  display: flex;
-}
-
-.about-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -10,6 +6,7 @@
   flex-direction: column;
 
   margin-right: 5rem;
+  padding-bottom: 15%;
 }
 
 .about-content h1 {
@@ -22,7 +19,17 @@
 .about-content p {
   font-family: var(--font-family);
   color: #81afdd;
-  font-size: 20px;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
   padding-left: 5rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-content h1,
+  p {
+    margin: auto;
+  }
 }

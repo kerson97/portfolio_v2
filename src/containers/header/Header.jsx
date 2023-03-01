@@ -8,11 +8,10 @@ const Header = () => {
       <div className='website_header-content'>
         <h1 className='gradient__text'>Hi, I'm Carson</h1>
         <p>
-          Aspiring full-stack developer and a lover of technology and human
-          connection.
+          Aspiring full-stack developer based out of Victoria BC. Lover of
+          learning, people and technology.
         </p>
       </div>
-
       <div />
       <div className='website_header-img'>
         <img src={duck} alt='duck' />
