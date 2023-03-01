@@ -3,9 +3,9 @@
   display: flex;
 
   justify-content: space-between;
-  align-items: center;
+  align-items: lef;
 
-  padding: 1rem 6rem;
+  padding: 2rem 6rem;
 }
 
 .website_navbar-links {
@@ -34,6 +34,12 @@
 
   margin: 0 1rem;
   cursor: pointer;
+}
+
+.website_navbar-links a:hover {
+  background-color: #052955;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 
 .website_navbar-menu {
