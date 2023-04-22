@@ -8,6 +8,11 @@
 }
 
 .skills-content h1 {
+  display: inline-block;
+  animation: typing 4s steps(150) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 3rem;
@@ -15,19 +20,32 @@
 }
 
 .skills-content p {
+  display: inline-block;
+  animation: typing 4s steps(150) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+
   font-family: var(--font-family);
   color: #f7f7f7;
   font-size: 1.5rem;
   margin-top: 8rem;
   padding-left: 1.5rem;
   line-height: 4rem;
-  word-spacing: 4rem;
+  word-spacing: 15rem;
 
   background: var(--gradient-bar);
   border-radius: 1rem;
   padding-bottom: 10rem;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1050px) {
   .skills-content {
     flex-direction: column;

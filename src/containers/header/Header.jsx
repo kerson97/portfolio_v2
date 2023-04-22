@@ -8,7 +8,7 @@ const Header = () => {
       <div className='website_header-content'>
         <h1 className='gradient__text'>Hi, I'm Carson</h1>
         <p>
-          Aspiring full-stack developer based out of Victoria BC. Lover of
+          Aspiring full-stack developer based out of Victoria BC. Enjoyer of
           learning, people and technology.
         </p>
       </div>
