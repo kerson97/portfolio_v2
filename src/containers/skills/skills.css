@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-bottom: 30%;
+  padding-bottom: 50%;
 }
 
 .skills-content h1 {
@@ -28,14 +28,14 @@
   font-family: var(--font-family);
   color: #f7f7f7;
   font-size: 1.5rem;
-  margin-top: 8rem;
+  margin-top: 5rem;
   padding-left: 1.5rem;
   line-height: 4rem;
   word-spacing: 15rem;
+  font-weight: 1000;
 
   background: var(--gradient-bar);
   border-radius: 1rem;
-  padding-bottom: 10rem;
 }
 
 @keyframes typing {

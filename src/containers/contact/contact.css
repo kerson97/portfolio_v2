@@ -1,0 +1,15 @@
+.contact-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 50%;
+}
+
+.contact-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 3rem;
+  padding-left: 10rem;
+}

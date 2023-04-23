@@ -13,22 +13,21 @@ const About = () => {
 
       <p>
         I had the priveledge of growing up in Kelowna British Columbia, making
-        countless friends and memories along the way.{' '}
+        countless friends and memories along the way.
       </p>
 
       <p>
         I now reside in Victoria where I've spent the last few years attending
-        UVic in pursuit of a Bachelors of Computer Science degree. As much as
-        I've loved my time at university I look forward to putting my skills to
-        the test in a professional environment.
+        UVic obtaining my Bachelors of Computer Science degree. I loved my time
+        at university and I look forward to putting my skills to the test in a
+        professional environment.
       </p>
 
       <p>
         I spend my free time immersing myself in my various hobbies and
         passions. I love hiking and camping, reading, fishing, yoga/fitness,
         playing kendama, gaming and programming to name a few. Have mastered the
-        arts of combining any of these with craft beer drinking! <br />
-        <br /> Not a moment goes by where I'm not busy doing something!
+        arts of combining many of these with craft beer drinking! <br />
       </p>
     </div>
   )
