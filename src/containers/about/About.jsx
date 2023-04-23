@@ -26,8 +26,8 @@ const About = () => {
       <p>
         I spend my free time immersing myself in my various hobbies and
         passions. I love hiking and camping, reading, fishing, yoga/fitness,
-        playing kendama, gaming and programming to name a few. Have mastered the
-        arts of combining many of these with craft beer drinking! <br />
+        playing kendama, snowboarding, gaming, and programming to name a few.
+        Known to combine many of these with craft beer drinking! <br />
       </p>
     </div>
   )
