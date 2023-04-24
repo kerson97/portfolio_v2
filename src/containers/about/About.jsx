@@ -19,8 +19,9 @@ const About = () => {
       <p>
         I now reside in Victoria where I've spent the last few years attending
         UVic obtaining my Bachelors of Computer Science degree. I loved my time
-        at university and I look forward to putting my skills to the test in a
-        professional environment.
+        at university and I look forward to putting my skills to the test (and
+        learning more!) in a professional environment. It's important to me that
+        my future work is both meaningful as well as challenging!
       </p>
 
       <p>

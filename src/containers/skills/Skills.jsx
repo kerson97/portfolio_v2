@@ -6,7 +6,12 @@ const Skills = () => {
     <div className='skills-content section_padding section_margin' id='skills'>
       <h1 className='gradient__text'>My Skills</h1>
 
-      <p>ReactJS Javascript Java Python C HTML</p>
+      <a
+        href='https://drive.google.com/file/d/1XOIwyni761iMotW3YxCh_fZ_Kntp4JZq/view?usp=sharing'
+        target='_blank'
+      >
+        2023 Resumé (PDF)
+      </a>
     </div>
   )
 }
