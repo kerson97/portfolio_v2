@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/110311555/222052148-6e0e6540-1d52-42cf-b2bd-9a6d598d4dad.png)
+![image](https://user-images.githubusercontent.com/110311555/233875329-1b05c3d6-60c5-4043-8314-da427edcb1c0.png)
 
 
 # Personal website (work in progress), a project to learn some of the ropes of ReactJS!
