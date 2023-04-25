@@ -29,8 +29,31 @@
   .about-content {
     flex-direction: column;
   }
-  .about-content h1,
-  p {
-    margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .about-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 17%;
+    width: 100%;
+  }
+
+  .about-content h1 {
+    padding-left: 6rem;
+  }
+
+  .about-content p {
+    font-family: var(--font-family);
+    color: #81afdd;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    line-height: 4rem;
+    word-spacing: 2px;
+    max-width: 100%;
   }
 }

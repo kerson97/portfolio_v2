@@ -15,13 +15,15 @@ const Header = () => {
         <h1 className='gradient__text'>Hi, I'm Carson</h1>
         <p>
           Aspiring full-stack developer based out of Victoria BC. Enjoyer of
-          learning, enthusiast of technology, and occasional drinker of beers.
+          learning, enthusiast of technology, and occasional drinker of dark
+          beers.
         </p>
         <div className='website_header-socials'>
           <a
             href='https://www.facebook.com/carson.seidel'
             target='_blank'
             className='button'
+            rel='noopener noreferrer'
           >
             <img src={fb} alt='fb' />
           </a>
@@ -29,6 +31,7 @@ const Header = () => {
             href='https://www.instagram.com/carsonseidel/'
             target='_blank'
             className='button'
+            rel='noopener noreferrer'
           >
             <img src={ig} alt='ig' />
           </a>
@@ -36,6 +39,7 @@ const Header = () => {
             href='https://www.linkedin.com/in/carson-seidel/'
             target='_blank'
             className='button'
+            rel='noopener noreferrer'
           >
             <img src={linkedin} alt='linkedin' />
           </a>
@@ -43,6 +47,7 @@ const Header = () => {
             href='https://github.com/kerson97'
             target='_blank'
             className='button'
+            rel='noopener noreferrer'
           >
             <img src={github} alt='github' />
           </a>
@@ -51,6 +56,7 @@ const Header = () => {
             href='mailto:carson.e.seidel@gmail.com'
             target='_blank'
             className='button'
+            rel='noopener noreferrer'
           >
             <img src={mail} alt='mail' />
           </a>

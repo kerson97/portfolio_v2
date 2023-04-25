@@ -53,6 +53,7 @@
 }
 
 .website_navbar-menu_container {
+  z-index: 999;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

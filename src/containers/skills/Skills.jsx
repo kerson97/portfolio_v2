@@ -9,6 +9,7 @@ const Skills = () => {
       <a
         href='https://drive.google.com/file/d/1XOIwyni761iMotW3YxCh_fZ_Kntp4JZq/view?usp=sharing'
         target='_blank'
+        rel='noopener noreferrer'
       >
         2023 Resumé (PDF)
       </a>

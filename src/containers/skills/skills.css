@@ -1,5 +1,4 @@
 .skills-content {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -11,7 +10,7 @@
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 3rem;
-  padding-left: 10rem;
+  padding-left: 8rem;
 }
 
 .skills-content a {
@@ -36,8 +35,18 @@
   .skills-content {
     flex-direction: column;
   }
-  .skills-content h1,
-  p {
-    margin: auto;
+}
+@media screen and (max-width: 650px) {
+  .skills-content {
+    margin-left: 2rem;
+  }
+
+  .skills-content h1 {
+    padding-left: 3rem;
+  }
+
+  .skills-content a {
+    margin-left: 0rem;
+    text-align: center;
   }
 }
