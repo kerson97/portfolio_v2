@@ -3,7 +3,7 @@
 
 # Personal website (work in progress)
 
-## Practising the art of ReactJS
+### Practising the arts of ReactJS and CSS
 
 
 
