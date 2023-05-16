@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding-top: 15rem;
+  padding-top: 20rem;
   padding-right: 40rem;
 }
 
@@ -75,10 +75,10 @@
 }
 
 .website_header-img img {
-  display: inline-block;
+  display: inline-flex;
   position: relative;
-  right: 35rem;
-  top: 6rem;
+  right: 30rem;
+  top: 10rem;
   white-space: nowrap;
   overflow: hidden;
   opacity: 0;
