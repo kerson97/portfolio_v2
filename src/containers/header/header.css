@@ -11,6 +11,11 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding-top: 5rem;
+}
+
+.break {
+  display: none;
 }
 
 .website_header-content h1 {
@@ -34,7 +39,7 @@
   animation: typing 4s steps(150) forwards, fadeIn 1s 3s forwards;
 
   font-family: var(--font-family);
-  color: #81afdd;
+  color: #daf2f1;
   font-size: 1.5rem;
   margin: 1.5rem auto 0;
   text-align: center;
@@ -50,7 +55,7 @@
 
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(200) forwards, fadeIn 1s 5s forwards;
+  animation: typing 4s steps(150) forwards, fadeIn 1s 3s forwards;
   opacity: 0;
 }
 
@@ -74,9 +79,10 @@
   white-space: nowrap;
   overflow: hidden;
   opacity: 0;
-  animation: typing 4s steps(150) forwards, fadeIn 1s 4s forwards;
+  animation: typing 4s steps(150) forwards, fadeIn 1s 3s forwards;
   width: 800px;
   height: 800px;
+  padding-right: 10rem;
 }
 
 @keyframes typing {
@@ -119,7 +125,6 @@
 
   .website_header-socials img {
     width: 40px;
-    margin-right: 3rem;
   }
 
   .website_header-content h1 {
@@ -138,7 +143,6 @@
   }
   .website_header-img img {
     display: inline-block;
-    padding-right: 5rem;
 
     opacity: 0;
     animation: typing 4s steps(150) forwards, fadeIn 1s 4s forwards;
@@ -164,13 +168,23 @@
 
 @media screen and (max-width: 490px) {
   .website_header-content h1 {
-    font-size: 20px;
+    font-size: 2.5rem;
     line-height: 48px;
-    left: 20%;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
   }
 
   .website_header-content p {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0%;
+  }
+
+  .break {
+    display: inline;
+  }
+  .website_header-socials img {
+    margin-right: 2rem;
   }
 }

@@ -17,8 +17,8 @@
 
 .about-content p {
   font-family: var(--font-family);
-  color: #81afdd;
-  font-size: 1.5rem;
+  color: #daf2f1;
+  font-size: 2rem;
   margin-top: 4rem;
   padding-left: 1.5rem;
   line-height: 4rem;
@@ -44,7 +44,9 @@
   }
 
   .about-content h1 {
-    padding-left: 6rem;
+    text-align: center;
+    padding: 0%;
+    padding-right: 20px;
   }
 
   .about-content p {
@@ -52,8 +54,9 @@
     color: #81afdd;
     font-size: 1.5rem;
     margin-top: 4rem;
-    line-height: 4rem;
+    line-height: 2rem;
     word-spacing: 2px;
-    max-width: 100%;
+    max-width: 150%;
+    padding-left: 0;
   }
 }

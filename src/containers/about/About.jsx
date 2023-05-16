@@ -7,8 +7,8 @@ const About = () => {
       <h1 className='gradient__text'>About Me</h1>
 
       <p>
-        My names Carson and I love to learn new things, I love to solve
-        problems, I love working with people and I love to have fun.
+        I love to learn new things, I love to solve problems, I love
+        collaborating with people, and I love technology.
       </p>
 
       <p>
@@ -17,18 +17,20 @@ const About = () => {
       </p>
 
       <p>
-        I now reside in Victoria where I've spent the last few years attending
-        UVic obtaining my Bachelors of Computer Science degree. I loved my time
-        at university and I look forward to putting my skills to the test (and
-        learning more!) in a professional environment. It's important to me that
-        my future work is both meaningful as well as challenging!
+        I obtained a diploma in Business Administration at Okanagan College and
+        now reside in Victoria where I've spent the last few years attending
+        UVic obtaining my Bachelors of Computer Science degree at UVic. I loved
+        my time at university and I look forward to continuing to build my skill
+        sets in a professional environment. It's important to me that my future
+        work is both meaningful as well as challenging!
       </p>
 
       <p>
         I spend my free time immersing myself in my various hobbies and
         passions. I love hiking and camping, reading, fishing, yoga/fitness,
         playing kendama, snowboarding, gaming, and programming to name a few.
-        Known to combine many of these with craft beer drinking! <br />
+        Known to combine many of these with good company and craft beer
+        drinking! <br />
       </p>
     </div>
   )
