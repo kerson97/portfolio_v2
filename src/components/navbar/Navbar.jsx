@@ -5,13 +5,13 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 const Menu = () => (
   <>
     <p>
-      <a href='#home'>Home</a>
-    </p>
-    <p>
       <a href='#about'>About</a>
     </p>
     <p>
       <a href='#skills'>Skills</a>
+    </p>
+    <p>
+      <a href='#projects'>Projects</a>
     </p>
   </>
 )

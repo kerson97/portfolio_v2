@@ -13,12 +13,12 @@ const Header = () => {
     <div className='website_header section_padding' id='home'>
       <div className='website_header-content'>
         <h1 className='gradient__text'>
-          Hi, <br class='break' /> I'm Carson
+          Hi, <br class='break' /> I'm Carson.
         </h1>
         <p>
-          Full-stack developer based out of Victoria BC. Enjoyer of learning,
-          enthusiast of technology,
-          <br /> and occasional drinker of dark beers.
+          Full-stack developer based out of Victoria BC, Canada.
+          <br /> Enjoyer of learning, enthusiast of technology, and crafter of
+          user interfaces.
         </p>
         <div className='website_header-socials'>
           <a
