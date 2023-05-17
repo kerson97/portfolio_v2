@@ -36,9 +36,9 @@
   cursor: pointer;
 }
 
-.website_navbar-links a:hover {
-  border-radius: 1rem;
-  padding: 0.5rem;
+.website_navbar-links p:hover {
+  transform: scale(1.2);
+  transition: transform 0.6s ease; /* Add a smooth transition effect */
 }
 
 .website_navbar-menu {

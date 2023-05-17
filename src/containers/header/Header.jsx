@@ -1,7 +1,5 @@
 import React from 'react'
 import './header.css'
-import duck from '../../assets/duck.png'
-
 import fb from '../../assets/fb.png'
 import ig from '../../assets/ig.png'
 import linkedin from '../../assets/linkedin.png'
@@ -18,7 +16,7 @@ const Header = () => {
         <p>
           Full-stack developer based out of Victoria BC, Canada.
           <br /> Enjoyer of learning, enthusiast of technology, and crafter of
-          user interfaces.
+          applications.
         </p>
         <div className='website_header-socials'>
           <a
@@ -63,9 +61,6 @@ const Header = () => {
             <img src={mail} alt='mail' />
           </a>
         </div>
-      </div>
-      <div className='website_header-img'>
-        <img src={duck} alt='duck' />
       </div>
     </div>
   )

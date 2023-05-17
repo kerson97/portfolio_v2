@@ -1,0 +1,11 @@
+.projects_content {
+  display: flex;
+  padding-bottom: 40%;
+}
+
+.projects_content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 3rem;
+  padding-left: 20rem;
+}
