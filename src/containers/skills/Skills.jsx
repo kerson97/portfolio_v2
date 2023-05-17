@@ -4,7 +4,7 @@ import './skills.css'
 const Skills = () => {
   return (
     <div className='skills-content section_padding section_margin' id='skills'>
-      <h1 className='gradient__text'>My Resumé</h1>
+      <h1 className='header__text'>My Resumé</h1>
 
       <iframe
         title='Resume'

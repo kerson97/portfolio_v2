@@ -4,7 +4,7 @@ import './about.css'
 const About = () => {
   return (
     <div className='about-content section_margin section_padding' id='about'>
-      <h1 className='gradient__text'>About Me</h1>
+      <h1 className='header__text'>About Me</h1>
 
       <p>
         I love learning new things, solving problems creatively, and
@@ -24,11 +24,6 @@ const About = () => {
         smooth, crisp UI's that are minimal, impactive and responsive. My full
         stack projects aim to pair beautiful UI's with efficient back-ends to
         match.
-      </p>
-
-      <p>
-        I had the priveledge of growing up in Kelowna British Columbia, making
-        countless friends and memories along the way.
       </p>
 
       <p>

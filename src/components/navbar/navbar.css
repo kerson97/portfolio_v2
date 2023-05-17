@@ -1,9 +1,9 @@
 .website_navbar {
   /*change this if we run into trouble*/
   display: flex;
-
+  flex-direction: column;
   justify-content: space-between;
-  align-items: lef;
+  align-items: flex-end;
 
   padding: 2rem 6rem;
 }
@@ -12,7 +12,7 @@
   flex: 1;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .website_navbar-links_container {
@@ -54,7 +54,7 @@
 .website_navbar-menu_container {
   z-index: 999;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-end;
   flex-direction: column;
 

@@ -108,6 +108,16 @@ a {
   animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.header__text {
+  color: #fff;
+  font-family: var(--font-family);
+  letter-spacing: 10px;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+}
+
 @-webkit-keyframes slide-fwd-center {
   0% {
     -webkit-transform: translateZ(0);
