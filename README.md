@@ -1,4 +1,4 @@
-![image](https://github.com/kerson97/website_v2/assets/110311555/89eddf3d-c08c-4a65-bf49-ae0e60057932)
+![image](https://github.com/kerson97/portfolio_v2/assets/110311555/b280b9bf-1572-4006-9607-3efe40f7f84d)
 
 
 # Personal website (work in progress)
